@@ -1,0 +1,72 @@
+body{
+    background: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+background-size: 100%;
+font-size: 20px;
+font-weight: 500;
+font-family: sans-serif;
+}
+
+
+label{
+    display: block;
+    font-size: 20px;
+    margin: 20px 0 20px 0 ;
+    color: white;
+}
+h1,p{
+    text-align: center;
+    color: white;
+}
+.form{
+    margin: auto;
+
+    background: rgba(90, 90, 90,70%);
+    width: fit-content;
+    
+    
+    
+}
+form{
+   
+    
+    max-width: 700px;
+    min-width: 400px;
+    width:70vw;
+    margin:auto;
+    
+    padding: 50px;
+   
+}
+input[type="checkbox"] , input[type="radio"] {
+    width: unset;
+   vertical-align: middle;
+   
+    
+    
+    
+}
+
+.input-box,select,textarea
+{
+    width: 100%;
+    color: grey;
+    height: 35px;
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea{
+    height: 150px;
+    width: 100%;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #37af65;
+    opacity: 100%;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
